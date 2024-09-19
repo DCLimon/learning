@@ -21,7 +21,7 @@ class Employee:
     #   - like an instance variable: emp.full_name
     @property
     def full_name(self):
-        return f"{self.first_name} {self.last_name}"
+        return f'{self.first_name} {self.last_name}'
 
     # setter allows redefining a property to change all relevant
     # attributes to match. Called by emp_1.full_name = 'New Name'
@@ -41,13 +41,13 @@ class Employee:
 
     @property
     def email(self):
-        return (f"{self.first_name.lower()}.{self.last_name.lower()}"
+        return (f'{self.first_name.lower()}.{self.last_name.lower()}'
                 f'@company.com')
 
     # __repr__ is unambiguous, for other devs
     def __repr__(self):
-        return (f"Employee('{self.first_name}', '{self.last_name}', "
-                f"'{self.pay}')")
+        return (f'Employee("{self.first_name}", "{self.last_name}", '
+                f'"{self.pay}")')
 
     # __str__ may be ambiguous, for end users in easy-reading format
     def __str__(self):

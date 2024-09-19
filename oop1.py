@@ -19,6 +19,7 @@ class Employee:
         self.email = (
             f'{first_name.lower()}.{last_name.lower()}@company.com'
         )
+
     # not a @property method because just want a way to easily obtain
     # the full name, but the attributes exist already as separate first
     # & last names
