@@ -1,0 +1,29 @@
+strong,
+/*Change bold text to be color of default style*/
+b {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+/*!important flag makes apply_button width override taipy-button width*/
+.apply_button {
+    margin-top: 120px;
+    width: 60% !important;
+}
+
+/*Default width for all Taipy buttons unless overridden*/
+.taipy-button {
+    width: 15%;
+}
+
+/*Height & width for page icons*/
+.MuiAvatar-img {
+    width: 70%;
+    height: 70%;
+}
+
+/*Change width of left-side menu stripe
+.MuiDrawer-paper {
+    width: 70px;
+}
+*/

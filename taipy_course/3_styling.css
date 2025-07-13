@@ -1,0 +1,16 @@
+strong,
+/*Change bold text to be color of default style*/
+b {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+/*Used inspect element to test layouts to find correct setting*/
+.apply_button {
+    margin-top: 120px;
+}
+
+/*Set button to be 60% of column width*/
+.taipy-button {
+    width: 60%;
+}
